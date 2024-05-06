@@ -1,0 +1,7 @@
+Aluno: Paulo Eduardo Ferreira Duraes
+Instruções para executar os codigos:
+
+1º Extrair a pasta ATV do arquivo .rar no seu computador.
+2º Abrir a pasta ATV no VScode com o javascript e o node instalados na maquina
+3º No VScode, utilizar o comando npm install prompt-sync, para instalar o prompt
+4º Após isto, digitar no terminal o seguinte comando: node "nome_do_arquivo" e apertar enter. Exemplo node quest1.js.

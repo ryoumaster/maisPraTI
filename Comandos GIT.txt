@@ -1,0 +1,23 @@
+Comandos GIT
+Configurar user na pasta abre a git na pasta
+git config --list
+caso nao tenha user cadastrado digite
+git config --global user.name "userdogit"
+para configurar o email é
+git config --global user.email "aaa@aaa.com"
+confi pasta como principal
+git config --global init.defaultBranch main
+para iniciar o git na pasta é o comando:
+git init
+após isso crie um repositorio no github com mesmo nome e add no gitbash
+got remote add origin linkdorepositorio.com
+para trazer um repositorio de algum lugar pra nossa maquina é necessario copiar o link e usar:
+git clone linkdorepositorio
+para ver o status é:
+git status
+preparar um arquivo pra ser comitado:
+git add .
+para comitar é:
+git commit -m "comentario sobre o comit"
+para enviar pro repositorio é:
+git push
